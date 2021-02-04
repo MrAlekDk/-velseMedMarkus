@@ -6,7 +6,5 @@ public class Main {
 
 
         //Hej Med dig Markus
-
-        // Hey mrALek :)
     }
 }
