@@ -41,6 +41,7 @@ public class Book {
                 titel +
                 " and was released in " + year +
                 ", ISBNNumber= " + ISBNNumber;
+
     }
 }
 
