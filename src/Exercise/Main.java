@@ -5,8 +5,10 @@ public class Main {
     public static void main(String[] args) {
 
 
-        //Hej Med dig Markus
+        Græs test = new Græs();
 
-        // Hey mrALek :)
+        System.out.println(test.antaldage(0.2, 5.0));
+
+
     }
 }
