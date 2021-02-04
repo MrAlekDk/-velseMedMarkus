@@ -40,8 +40,7 @@ public class Book {
         return "This Book is " +
                 titel +
                 " and was released in " + year +
-                ", ISBNNumber= " + ISBNNumber +
-                '}';
+                ", ISBNNumber= " + ISBNNumber;
     }
 }
-}
+
