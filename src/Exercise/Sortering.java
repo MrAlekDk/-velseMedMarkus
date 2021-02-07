@@ -17,13 +17,15 @@ public class Sortering implements Comparable{
         words[i] = input.nextLine();
         }
 
-        for(int j=0;j<words.length-1;j++){
-            String word = words[j];
-            if(word.charAt(j)>words[j+1].charAt(0)){
+        boolean sorted = false;
+        while(!sorted){
+            for(int j=0;j<words.length-1;j++){
+                String word = words[j];
+                if(word.charAt(j)>words[j+1].charAt(0)){
 
+                }
             }
         }
-
 
     }
 
