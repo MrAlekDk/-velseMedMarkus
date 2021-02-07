@@ -27,10 +27,10 @@ public class Sortering{
 
     }
 
-    /*@Override
+    @Override
     public int compareTo(Object o) {
 
     }
 
-     */
+
 }
