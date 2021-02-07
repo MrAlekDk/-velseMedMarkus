@@ -17,18 +17,19 @@ public class Sortering{
         words[i] = input.nextLine();
         }
 
-        boolean sorted = true;
-        while(!sorted){
+        boolean sorted = false;
+        while(sorted==false){
+            sorted=true;
             for(int j=0;j<words.length-1;j++){
                 String word = words[j];
-                if(word.charAt(0)<words[j+1].charAt(0)){
+                if(word.charAt(0)>words[j+1].charAt(0)){
                     String wordChange = words[j];
                     words[j] = words[j+1];
                     words[j+1] = wordChange;
                     sorted = false;
                 }
                 else if(word.charAt(j)==words[j+1].charAt(0)){
-                    if(word.charAt(j)<words[j+1].charAt(0)){
+                    if(word.charAt(j)>words[j+1].charAt(0)){
                         String wordChange = words[j];
                         words[j] = words[j+1];
                         words[j+1] = wordChange;
