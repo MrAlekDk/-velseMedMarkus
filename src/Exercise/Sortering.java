@@ -2,7 +2,7 @@ package Exercise;
 
 import java.util.Scanner;
 
-public class Sortering implements Comparable{
+public class Sortering{
     private Scanner input;
 
     public Sortering(){
@@ -27,8 +27,10 @@ public class Sortering implements Comparable{
 
     }
 
-    @Override
+    /*@Override
     public int compareTo(Object o) {
 
     }
+
+     */
 }
