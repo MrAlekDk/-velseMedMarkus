@@ -2,7 +2,7 @@ package Exercise;
 
 import java.util.Scanner;
 
-public class Sortering implements Comparable{
+public class Sortering{
     private Scanner input;
 
     public Sortering(){
@@ -17,20 +17,33 @@ public class Sortering implements Comparable{
         words[i] = input.nextLine();
         }
 
-        boolean sorted = false;
+        boolean sorted = true;
         while(!sorted){
             for(int j=0;j<words.length-1;j++){
                 String word = words[j];
-                if(word.charAt(j)>words[j+1].charAt(0)){
+                if(word.charAt(0)<words[j+1].charAt(0)){
+                    String wordChange = words[j];
+                    words[j] = words[j+1];
+                    words[j+1] = wordChange;
+                    sorted = false;
+                }
+                else if(word.charAt(j)==words[j+1].charAt(0)){
+                    if(word.charAt(j)<words[j+1].charAt(0)){
+                        String wordChange = words[j];
+                        words[j] = words[j+1];
+                        words[j+1] = wordChange;
+                        sorted = false;
+                    }
 
                 }
             }
         }
 
+        for(int l=0;l< words.length;l++){
+            System.out.println(words[l] +"\n");
+        }
+
     }
 
-    @Override
-    public int compareTo(Object o) {
 
-    }
 }
