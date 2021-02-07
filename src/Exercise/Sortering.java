@@ -2,7 +2,7 @@ package Exercise;
 
 import java.util.Scanner;
 
-public class Sortering{
+public class Sortering implements Comparable{
     private Scanner input;
 
     public Sortering(){
@@ -31,6 +31,4 @@ public class Sortering{
     public int compareTo(Object o) {
 
     }
-
-
 }

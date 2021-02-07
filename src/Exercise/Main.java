@@ -8,10 +8,6 @@ public class Main {
 
         Kvadrat test = new Kvadrat();
 
-        Søgning søgning = new Søgning();
-        String [] array =  new String[]{"Markus", "Alek", "Carsten", "Niklas", "Jasmin", "Henriette", "Anton", "Mette"};
-        System.out.println(søgning.searchString("mrAlek", array));
-
         //Græs test = new Græs();
 
         //test.makeKvadrat();
@@ -27,8 +23,8 @@ public class Main {
         System.out.println(test2.doesArrayListContainString(list, "Hej"));
         System.out.println(test2.doesArrayListContainString(list, "Alek")); */
 
-        //ProperCase ordTjek = new ProperCase();
-       // System.out.println(ordTjek.checkProperCase("Hej jeg heDDer ALEK"));
+        ProperCase ordTjek = new ProperCase();
+        System.out.println(ordTjek.checkProperCase("Hej jeg heDDer ALEK"));
 
     }
 }
