@@ -10,7 +10,7 @@ public class Main {
 
         //Græs test = new Græs();
 
-        test.makeKvadrat();
+        //test.makeKvadrat();
 
         //System.out.println(test.antaldage(0.2, 5.0));
 
@@ -22,5 +22,9 @@ public class Main {
 
         System.out.println(test2.doesArrayListContainString(list, "Hej"));
         System.out.println(test2.doesArrayListContainString(list, "Alek")); */
+
+        ProperCase ordTjek = new ProperCase();
+        System.out.println(ordTjek.checkProperCase("Hej jeg heDDer ALEK"));
+
     }
 }
